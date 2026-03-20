@@ -78,7 +78,7 @@ bool launchSearchKernel(
     
     // Configure CUDA grid
     int threadsPerBlock = 256;
-    int blocksPerGrid = maxGridSize;
+    int blocksPerGrid = 2048;
     
     char *d_target, *d_charset, *d_prefix;
     cudaMalloc(&d_target, MAX_STR_LEN);

@@ -3,11 +3,12 @@ from torch import nn, optim
 from torch.utils.data import TensorDataset, DataLoader
 from tqdm import tqdm
 import numpy as np
+import matplotlib.pyplot as plt
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 x = torch.tensor([[1], [2], [3], [4], [5], [6], [7], [8]], dtype=torch.float32, device=device)
-y = torch.tensor([[4.05], [3.93], [3.65], [4.01], [8.37], [308.12], [86879.50], [6992707.50]], dtype=torch.float32, device=device)
+y = torch.tensor([[3.77], [3.86], [3.73], [4.05], [20.89], [882.68], [98973.05], [2423392.75]], dtype=torch.float32, device=device)
 y_log = torch.log(y)
 
 dataset = TensorDataset(x, y_log)
@@ -71,3 +72,20 @@ B = np.log(y2 / y1) / (8.0 - 1.0)
 A = y1 / np.exp(B * 1.0)
 
 print(f"The model's behavior approximates: y = {A:.2f} * e^({B:.4f} * x)")
+
+x_axis = []
+y_axis = []
+
+with torch.no_grad():
+    for i in range(20):
+        x_axis.append(i)
+        t = torch.tensor([[i]], dtype=torch.float32, device=device)
+        out = torch.exp(model(t)).cpu().numpy().item()
+        print(i, out)
+        y_axis.append(out)
+
+plt.plot(x_axis, y_axis)
+plt.xlabel("password length")
+plt.ylabel("time in ms")
+plt.savefig("lvtrelation.png")
+plt.show()

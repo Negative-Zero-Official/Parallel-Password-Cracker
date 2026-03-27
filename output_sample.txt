@@ -1,0 +1,117 @@
+=== Parallel Password Cracker ===
+Enter the password to be matched: prahlada
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 8
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 8 space...
+
+[GPU THREAD 397925 | TEST 170564517888] Match found: prahlada
+Time taken: 6992707.50 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: prahlad
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 7
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 7 space...
+
+[GPU THREAD 397925 | TEST 170564517888] Match found: prahlad
+Time taken: 86879.50 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: prahla
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 6
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 6 space...
+
+[GPU THREAD 106917 | TEST 164102144] Match found: prahla
+Time taken: 308.12 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: prahl
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 5
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 5 space...
+
+[GPU THREAD 106917 | TEST 164102144] Match found: prahl
+Time taken: 8.37 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: prah
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 4
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 4 space...
+
+[GPU THREAD 96501 | TEST 1572864] Match found: prah
+Time taken: 4.01 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: pra
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 3
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 3 space...
+
+[GPU THREAD 1069 | TEST 0] Match found: pra
+Time taken: 3.65 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: pr
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 2
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 2 space...
+
+[GPU THREAD 1069 | TEST 0] Match found: pr
+Time taken: 3.93 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: p
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 1
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 1 space...
+
+[GPU THREAD 15 | TEST 0] Match found: p
+Time taken: 4.05 ms

@@ -1,0 +1,117 @@
+=== Parallel Password Cracker ===
+Enter the password to be matched: D
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 1
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 1 space...
+
+[GPU THREAD 29 | TEST 0] Match found: D
+Time taken: 3.77 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: YS
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 2
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 2 space...
+
+[GPU THREAD 2778 | TEST 0] Match found: YS
+Time taken: 3.86 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: BL6
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 3
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 3 space...
+
+[GPU THREAD 225273 | TEST 0] Match found: BL6
+Time taken: 3.73 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: n32k
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 4
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 4 space...
+
+[GPU THREAD 497127 | TEST 2097152] Match found: n32k
+Time taken: 4.05 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: D6Oia
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 5
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 5 space...
+
+[GPU THREAD 491145 | TEST 1572864] Match found: D6Oia
+Time taken: 20.89 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: rA1UP2
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 6
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 6 space...
+
+[GPU THREAD 317073 | TEST 50087854080] Match found: rA1UP2
+Time taken: 882.68 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: Pktn1VI     
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 7
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 7 space...
+
+[GPU THREAD 430185 | TEST 1975052140544] Match found: Pktn1VI
+Time taken: 98973.05 ms
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: eCF1owpJ
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 8
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 8 space...
+
+[GPU THREAD 151040 | TEST 124128889143296] Match found: eCF1owpJ
+Time taken: 2423392.75 ms

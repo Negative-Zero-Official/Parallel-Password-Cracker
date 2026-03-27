@@ -4,7 +4,7 @@
 #include <string.h>
 
 // A global flag in device memory to signal all threads to stop if a match is found
-__device__ bool d_found_flag = false;
+__device__ volatile bool d_found_flag = false;
 
 // GPU Kernel
 __global__ void stringMatchKernel(
@@ -56,6 +56,7 @@ __global__ void stringMatchKernel(
         if (match) {
             d_found_flag = true;
             printf("\n[GPU THREAD %llu | TEST %llu] Match found: %s\n", start_id, id-start_id, guess);
+            return;
         }
     }
 }

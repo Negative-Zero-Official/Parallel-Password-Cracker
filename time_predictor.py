@@ -55,14 +55,18 @@ torch.save(model, "model.pt")
 
 model.eval()
 with torch.no_grad():
-    test_val = torch.tensor([[10.0]], device=device)
-    log_pred = model(test_val)
-    pred = torch.exp(log_pred)
-    print(f"Prediction for x=10: {pred.item()} seconds")
     test_val = torch.tensor([[8.0]], device=device)
     log_pred = model(test_val)
     pred = torch.exp(log_pred)
     print(f"Prediction for x=8: {pred.item()} seconds")
+    test_val = torch.tensor([[9.0]], device=device)
+    log_pred = model(test_val)
+    pred = torch.exp(log_pred)
+    print(f"Prediction for x=9: {pred.item()} seconds")
+    test_val = torch.tensor([[10.0]], device=device)
+    log_pred = model(test_val)
+    pred = torch.exp(log_pred)
+    print(f"Prediction for x=10: {pred.item()} seconds")
 
 
 x1, x2 = torch.tensor([[1.0]], device=device), torch.tensor([[8.0]], device=device)

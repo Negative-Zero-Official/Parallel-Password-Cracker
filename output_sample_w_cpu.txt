@@ -1,0 +1,158 @@
+=== Parallel Password Cracker ===          
+Enter the password to be matched: D
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 1
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 1 space...
+
+[GPU THREAD 29 | TEST 0] Match found: D
+GPU Time: 0.0036 s
+Running CPU comparison for 0.0036 seconds...
+CPU reached permutation: 29 (D)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0036 seconds
+Computed Speedup Factor: 1.00x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: YS
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 2
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 2 space...
+
+[GPU THREAD 2778 | TEST 0] Match found: YS
+GPU Time: 0.0041 s
+Running CPU comparison for 0.0041 seconds...
+CPU reached permutation: 2778 (YS)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0041 seconds
+Computed Speedup Factor: 1.00x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: BL6
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 3
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 3 space...
+
+[GPU THREAD 225273 | TEST 0] Match found: BL6
+GPU Time: 0.0038 s
+Running CPU comparison for 0.0038 seconds...
+CPU reached permutation: 89867 (Dxx)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0096 seconds
+Computed Speedup Factor: 2.51x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: o7K9
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 4
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 4 space...
+
+[GPU THREAD 0 | TEST 14680064] Match found: o7K9
+GPU Time: 0.0043 s
+Running CPU comparison for 0.0043 seconds...
+CPU reached permutation: 122272 (iYFa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.5155 seconds
+Computed Speedup Factor: 120.06x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: 0Gj99
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 5
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 5 space...
+
+[GPU THREAD 0 | TEST 915931136] Match found: 0Gj99
+GPU Time: 0.0059 s
+Running CPU comparison for 0.0059 seconds...
+CPU reached permutation: 150097 (5cNaa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 35.9977 seconds
+Computed Speedup Factor: 6102.26x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: 6Zh899
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 6
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 6 space...
+
+[GPU THREAD 0 | TEST 56799789056] Match found: 6Zh899
+GPU Time: 0.1164 s
+Running CPU comparison for 0.1164 seconds...
+CPU reached permutation: 3714240 (gpKpaa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 1780.7583 seconds
+Computed Speedup Factor: 15292.44x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: Aro8999
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 7
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 7 space...
+
+[GPU THREAD 0 | TEST 3521614184448] Match found: Aro8999
+GPU Time: 8.9226 s
+Running CPU comparison for 8.9226 seconds...
+CPU reached permutation: 263081604 (QH1Xraa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 119438.4928 seconds
+Computed Speedup Factor: 13386.01x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: OKe89999
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 8
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 8 space...
+
+[GPU THREAD 0 | TEST 218340105125888] Match found: OKe89999
+GPU Time: 637.8328 s
+Running CPU comparison for 637.8328 seconds...
+CPU reached permutation: 16913091229 (bOLLCsaa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 8234123.5820 seconds
+Computed Speedup Factor: 12909.53x

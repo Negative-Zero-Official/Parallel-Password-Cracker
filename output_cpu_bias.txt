@@ -1,0 +1,159 @@
+=== Parallel Password Cracker ===
+Enter the password to be matched: a
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 1
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 1 space...
+
+[GPU THREAD 0 | TEST 0] Match found: a
+GPU Time: 0.0038 s
+Running CPU comparison for 0.0038 seconds...
+CPU reached permutation: 0 (a)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0000 seconds
+Computed Speedup Factor: 0.00x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: aa
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 2
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 2 space...
+
+[GPU THREAD 0 | TEST 0] Match found: aa
+GPU Time: 0.0037 s
+Running CPU comparison for 0.0037 seconds...
+CPU reached permutation: 0 (aa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0000 seconds
+Computed Speedup Factor: 0.00x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: aaa
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 3
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 3 space...
+
+[GPU THREAD 0 | TEST 0] Match found: aaa
+GPU Time: 0.0038 s
+Running CPU comparison for 0.0038 seconds...
+CPU reached permutation: 0 (aaa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0000 seconds
+Computed Speedup Factor: 0.00x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: aaaa
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 4
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 4 space...
+
+[GPU THREAD 0 | TEST 0] Match found: aaaa
+GPU Time: 0.0040 s
+Running CPU comparison for 0.0040 seconds...
+CPU reached permutation: 0 (aaaa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0000 seconds
+Computed Speedup Factor: 0.00x
+
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: aaaaa
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 5
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 5 space...
+
+[GPU THREAD 0 | TEST 0] Match found: aaaaa
+GPU Time: 0.0038 s
+Running CPU comparison for 0.0038 seconds...
+CPU reached permutation: 0 (aaaaa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0000 seconds
+Computed Speedup Factor: 0.00x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: aaaaaa
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 6
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 6 space...
+
+[GPU THREAD 0 | TEST 0] Match found: aaaaaa
+GPU Time: 0.0040 s
+Running CPU comparison for 0.0040 seconds...
+CPU reached permutation: 0 (aaaaaa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0000 seconds
+Computed Speedup Factor: 0.00x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: aaaaaaa
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 7
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 7 space...
+
+[GPU THREAD 0 | TEST 0] Match found: aaaaaaa
+GPU Time: 0.0044 s
+Running CPU comparison for 0.0044 seconds...
+CPU reached permutation: 0 (aaaaaaa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0000 seconds
+Computed Speedup Factor: 0.00x
+
+
+=== Parallel Password Cracker ===
+Enter the password to be matched: aaaaaaaa
+Is the password length known? (y/n): y
+Enter the length (excluding birthday prefix): 8
+Is the birthday a prefix? (y/n): n
+Use special characters? (y/n): n
+
+Staring parallel search on GPU...
+Scanning length 8 space...
+
+[GPU THREAD 0 | TEST 0] Match found: aaaaaaaa
+GPU Time: 0.0040 s
+Running CPU comparison for 0.0040 seconds...
+CPU reached permutation: 0 (aaaaaaaa)
+
+=== RESULTS ===
+Estimated CPU time for full match: 0.0000 seconds
+Computed Speedup Factor: 0.00x

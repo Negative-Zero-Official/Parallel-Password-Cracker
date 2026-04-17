@@ -14,7 +14,8 @@ bool launchSearchKernel(
     int charset_len,
     int search_len,
     const char *prefix,
-    unsigned long long maxGridSize
+    unsigned long long maxGridSize,
+    unsigned long long *found_id
 );
 
 unsigned long long getMaxGridSize();

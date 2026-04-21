@@ -54,7 +54,7 @@ int main()
 
     if (known_len_ans == 'y')
     {
-        printf("Enter the length (excluding birthday prefix): ");
+        printf("Enter the length (excluding prefix): ");
         scanf("%d", &min_len);
         max_len = min_len;
     }
@@ -66,11 +66,11 @@ int main()
         scanf("%d", &max_len);
     }
 
-    printf("Is the birthday a prefix? (y/n): ");
+    printf("Is the prefix known? (y/n): ");
     scanf(" %c", &known_bday_ans);
     if (known_bday_ans == 'y')
     {
-        printf("Enter the birthday/prefix: ");
+        printf("Enter the known prefix: ");
         scanf("%255s", prefix);
     }
 

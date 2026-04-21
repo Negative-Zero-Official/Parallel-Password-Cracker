@@ -82,7 +82,7 @@ x_axis = []
 y_axis = []
 
 with torch.no_grad():
-    for i in range(20):
+    for i in np.arange(1, 10, 0.01):
         x_axis.append(i)
         t = torch.tensor([[i]], dtype=torch.float32, device=device)
         out = torch.exp(model(t)).cpu().numpy().item()
@@ -90,7 +90,8 @@ with torch.no_grad():
         y_axis.append(out)
 
 plt.plot(x_axis, y_axis)
-plt.xlabel("password length")
-plt.ylabel("time in seconds")
-plt.savefig("lvtrelation.png")
+plt.xlabel("Password Length (L)")
+plt.ylabel("GPU Cracking Time (T_gpu)")
+plt.tight_layout()
+plt.savefig("lvtrelation.png", bbox_inches="tight")
 plt.show()
